@@ -1,4 +1,7 @@
+<?php
 
+if(isset ($_SESSION['id'])) {
+?>
 </div>
 </div>
 </div>
@@ -98,3 +101,5 @@
 </script>
 </body>
 </html>
+<?php
+}else{} ?>

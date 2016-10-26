@@ -1,6 +1,8 @@
 
 <?php
 include 'header.php';
+if(isset ($_SESSION['id'])) {
+
 ?>
 <div id="inicio">
     <div class="panel-heading">
@@ -24,4 +26,5 @@ include 'header.php';
 </script>
 <?php
 include 'foot.php';
+}else{; }
 ?>
